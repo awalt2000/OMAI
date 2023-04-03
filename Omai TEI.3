@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="bold">Omai, Or, A Trip Around the World</hi></title>
+            <author>
+               <persName>
+                  <forename>John</forename>
+                  <surname>O'Keefe</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>Set Desgin</resp>
+               <persName>
+                  <forename> Phillippe Jacques</forename>
+                  <surname>De Loutherbourg</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>For Educational Purposes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Omai, Or, A Trip Around the World</title>. <author>John, O'Keefe</author>.
+                  <publisher>Theater Royal in Covent-garden</publisher>
+               <date>1786</date>. </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart><hi rend="bold">OMAI, Or, A Trip round the World</hi></titlePart>
+         </docTitle>
+         <titlePart>
+            <l rend="centered">A Short Account</l>
+            <l rend="centered"> of the </l>
+            <l rend="centered"> New Pantomime </l>
+            <l rend="centered"> Called </l>
+            <l rend="centered">
+               <hi rend="bold">OMAI,</hi></l>
+            <l rend="centered"> or,</l>
+            <l rend="centered"><hi rend="italic">A Trip round the World</hi>
+            </l>
+         </titlePart>
+         <docEdition rend="centered"> Preformed at the<lb/> Theatre-Royal
+            in<lb/>Covent-Garden.<lb/>with the<lb/>Recitatives, Airs, Duetts, Trios<lb/>and
+            Chorusses;<lb/>and a Description of the<lb/>Procession. </docEdition>
+         <byline rend="centered"> The Pantomime, and the whole of the secenery, designed and
+            <lb/>invented by <name>Mr. Phillip Jacques De Loutherbourg</name><!-- Full name subsituted for only last names from source doc for clarity -->
+            <lb/> The Words written by <docAuthor>Mr. Jophn O'Keefe</docAuthor>; <lb/> And the
+            Musick composed by <name>Mr. Shields</name>.
+         </byline>
+         <docImprint rend="centered">New Edition<lb/>
+            <placeName>London</placeName><lb/> Printed for T.CADELL on the Strand <lb/>
+            <date>1938</date></docImprint>
+      </front>
+      <body>
+         <div type="Characters">
+            <head><hi rend="bold">Characters</hi></head>         
+            <p>
+               <roleName>Towha</roleName> the Guardian Genius of <roleName>Omai</roleName>'s
+               Ancestors, and Protector of the legal Kings of <country>Otaheite</country>. </p>
+            <p><roleName>Otoo</roleName>, Father of <roleName>Omai</roleName>, a Descendant from the
+               legal Kings, a preist and a Magician</p>
+            <p><roleName>Omai</roleName></p>
+            <p><roleName>Otaheitian,</roleName> supposed to have accompanied
+                  <roleName>Omai</roleName> to <placeName>England</placeName><note type="author"
+                  n="*" place="bottom">The Idea of this dress was taken from <name>Cook</name>'s
+                  Voyage, Where it is said that <name>Omai</name>, to make himself fine on his
+                  introduction to Cheifs dressed himself with a piece of the habit of each country
+                  he has seen in his several voygages.</note></p>
+            <p><roleName>Harlequin,</roleName> Servent to <roleName>Omai</roleName></p>
+            <p><roleName>Oediddee,</roleName>Pretender to the Throne</p>
+            <p><roleName>Oberea,</roleName> Regent and Protectress of <roleName>Oediddee,</roleName>
+               an Enchantress</p>
+            <p><roleName>Britannia</roleName></p>
+            <p><roleName>Don Struttolando,</roleName> Rival to <roleName>Omai,</roleName> in his
+               love to <roleName>Londina</roleName></p>
+            <p><roleName>Clown,</roleName>
+               <roleName>Don Struttolando's</roleName> servant and rival of
+                  <roleName>Harlequin</roleName></p>
+            <p><roleName>Father of Londina</roleName></p>
+            <p><roleName>Mother of Londina</roleName></p>
+            <p><roleName>Londina,</roleName> the Consort destined to <roleName>Omai</roleName></p>
+            <p><roleName>Colombine,</roleName>maid to <roleName>Londina</roleName></p>
+            <p><roleName>Old Fairy</roleName>, Friend to <roleName>Harlequin</roleName></p>
+            <p><roleName>English Captin </roleName></p>
+            <p><roleName>Justice </roleName></p>
+            <p><roleName>Constables</roleName>, Messrs</p>
+            <p><roleName>Good and Evil Spirits</roleName>, <roleName>Custom House
+                  Officers</roleName>, <roleName>Sailors</roleName> &amp;c. </p>
+         </div>
+         <div type="Part" n="1">
+            <head>Part 1</head>
+            <div type="scene" n="1">
+               <head>Scene 1</head>
+               <p><stage type="location"><hi rend="italic">A morai<note type="author" n="1"
+                           place="bottom">A temple, or Burying place</note> in
+                           <placeName>Otaheite</placeName> by moonlight.</hi></stage>
+                  <stage type=" modifier">
+                     <roleName>Otoo</roleName>
+                     <hi rend="italic"> discovered making incocations to the genii of his ancestors
+                        for their assistance to fix his son on the throne.</hi></stage></p>
+
+               <sp>
+                  <speaker>REACTIVE-<hi rend="italic">Otoo</hi></speaker>
+                  <lg>
+                     <l> Hail to this awful place! Sacred Fiatooka <note n="2" place="bottom">A
+                           repository for the dead.</note> Hail!</l>
+                     <l> Where Othetan Chiefs in everlasting moe<note type="author" n="3"
+                           place="bottom">Sleep.</note> lie warriors renown'd,</l>
+                     <l>On Eimeo's<note type="author" n="4" place="bottom">One of the Sociery
+                           Islands, generaily at war with <country>Otaheite</country>.</note>
+                        fanguine plains with hard-fought victory crown'd;</l>
+                     <l>Tho' here in death ye moulder, yet the royal line can never fail, </l>
+                     <l>Preserv'd by <roleName>Towha</roleName>'s power divine;</l>
+                     <l>And the illustrious name, </l>
+                     <l>By glorious actions dear to frame, </l>
+                     <l>In my belov'd <roleName>Omai</roleName> shall never die.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR I.-<hi rend="italic">Otoo</hi></speaker>
+                  <lg>
+                     <l>God of Bolabola<note n="5" type="author" place="bottom">Another of the
+                              <placeName>Socitey Islands</placeName>, the most ferocious in war,
+                           conquerors of <placeName>Ulitea</placeName>, which was anciently
+                           subject.</note> hear! </l>
+                     <l> Accept this plantain, yam, and hog, well roasted</l>
+                     <l>Offerings to thy Godship dear,</l>
+                     <l> With mahee<note n="6" type="author" place="bottom">Bread.</note> sweet as
+                        ever boasted;</l>
+                     <l>And while thus I lowly bend,</l>
+                     <l>Let my humble suit ascend.</l>
+                     <stage type="setting">
+                        <hi rend="italic">[The sacrifice blazes up.</hi></stage>
+                     <l>The flames arise,</l>
+                     <l> Blest sacrifice!</l>
+                     <l>
+                        <roleName>Towha</roleName> snuffs the favor;</l>
+                     <l>Propitious sign</l>
+                     <l>Of grace benign</l>
+                     <l>Sure token of his favor.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RECITATIVE.</speaker>
+                  <lg>
+                     <l>Say, shall my son <roleName>Omai</roleName> reign?</l>
+                     <l>Great<roleName>Towha</roleName> now an answer deign.</l>
+                  </lg>
+                  <lg>
+                     <l><stage type="modifier"><hi rend="italic"><roleName>Towha</roleName> assumes
+                              the Apperance of a Chief Mourner.</hi></stage></l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RECITATIVE.-<hi rend="italic">Otoo</hi></speaker>
+                  <stage type="delivery"><hi rend="italic">(appalled).</hi></stage>
+                  <lg>
+                     <l>My Quiv'ring flesh, my limbs bedew'd all o'ver;</l>
+                     <l>Each feeble sense---my eyes---my voice---no more!</l>
+                     <stage type="business"><hi rend="italic">[Falls prostrate.</hi></stage>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR II.-<hi rend="italic"><roleName>Towha.</roleName></hi></speaker>
+                  <lg>
+                     <l> Spirits of peace that hover round,</l>
+                     <l>Oh, chear his mortal fight!</l>
+                     <l>Dispel with sewwt responsive sound</l>
+                     <l>The horrors of the night.</l>
+                     <stage type="entrance"><hi rend="italic">[Celestial muse.</hi></stage>
+                     <l> My Aerial band, ar't ready?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>Ready.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>To run, to swim, to fly, at my command?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>Command.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>To run?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>To run.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>To swim?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>To swim.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>To fly?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>To fly.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>At my command?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>Command.</l>
+                  </lg>
+                  <lg>
+                     <l><stage type="entrance">Spirits<hi rend="italic">appear.</hi></stage></l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>His darling son with motion soft as Maoaian<note n="7" type="author"
+                           place="bottom">Western breezes.</note> gales, hither convey</l>
+                     <l>My gentle spirits away.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>Away!</l>
+                  </lg>
+                  <lg>
+                     <l><stage type="exit"><hi rend="italics">[Disappear. </hi></stage></l>
+                     <l><stage type="mixed"><hi rend="italic">Soft Music, and</hi>
+                           <roleName>Omai</roleName>
+                           <hi rend="italic">brought in.</hi></stage></l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR III.-<hi rend="italic">Spirtis, Otoo.</hi> and <hi rend="italic">
+                        Towha.</hi></speaker>
+                  <lg>
+                     <l/>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Chorus of spirits.</hi></speaker>
+                  <lg>
+                     <l>Happy Father---<placeName>Otaheite</placeName>'s heir!</l>
+                     <stage type="delivery"><hi rend="italic">[To <roleName>Otoo</roleName> and
+                              <roleName>Omai</roleName>.</hi></stage>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Otoo.</hi></speaker>
+                  <lg>
+                     <l><roleName>Otoo</roleName>'s hope,</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>And <roleName>Towha</roleName>'s care.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RECITATIVE.-<hi rend="italic">Towha.</hi></speaker>
+                  <lg>
+                     <l>My precepts still from folly shall direct him,</l>
+                     <l>This potent talisman from harm protect him.</l>
+                     <stage type="business"><hi rend="italic">(Places the talisman by the side
+                           of</hi>
+                        <roleName>Omai</roleName><hi rend="italic"
+                           >-Thunder-</hi><roleName>Britannia</roleName>
+                        <hi rend="italic">is seen holding</hi>
+                        <roleName>Londina</roleName>.<roleName>Britannia</roleName>
+                        <hi rend="italic">speaks.</hi>)</stage>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Britannia</speaker>
+                  <lg>
+                     <l> Mark, votive islander, thy fate is mine,</l>
+                     <l>For mine</l>
+                     <l> The Queen of Isles, the mistress of the main!</l>
+                     <l> Upon my sea-grit shore, by Neptune fenc'd,</l>
+                     <l>Kind greeting, pleasure, welcome sweet receive;</l>
+                     <l>Still shall my sons, by <hi rend="italic"><name>Cook</name>'s</hi> example
+                        taught,</l>
+                     <l>Thy new-found world protect adn humanize.</l>
+                     <l>In soft alliance bound, this British maid</l>
+                     <l>Be thine, and Love, a radiant throne shall fix</l>
+                     <l>Firm as my rock, where sits bright <hi rend="italic">Liberty</hi>.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RECITATIVE.-<hi rend="italic">Otoo.</hi></speaker>
+                  <lg>
+                     <l>The splendid vision , oh, my son obey,</l>
+                     <l><roleName>Towha</roleName>comands for <placeName>England</placeName>quick
+                        away.</l>
+                     <l>But ere, lov'd youth, you quit your native shore,</l>
+                     <l>Your rival <roleName>Oediddee</roleName> shall restore</l>
+                     <l>The Royal Ensigns, <placeName>Britain</placeName> to convince</l>
+                     <l>That in <roleName>Omai</roleName> she receives a Prince.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>Scene 2</head>
+               <p>
+                  <stage type="location"><hi rend="italic">Inside of a morai of the antient
+                           Aree-de-by's<note type="author" n="8" place="bottom">Grand Chirfs.</note>
+                        ancestors of <roleName>Omai</roleName>
+                     </hi></stage>
+                  <stage type="entrance"><hi rend="italic">Enter</hi>
+                     <roleName>Otoo</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Omai</roleName></stage></p>
+               <sp>
+                  <speaker>RECITATIVE.-<hi rend="italic">Otoo</hi></speaker>
+                  <lg>
+                     <stage type="business">[<roleName>Omai</roleName>
+                        <hi rend="italic">kneels.</hi></stage>
+                     <l>Alas! to spare him you in vain implore me;</l>
+                     <l>Quick, fly and bring <roleName>Oediddee</roleName> here before me.</l>
+                     <stage type="mixed"><hi rend="italic">[Calls to Spirits, who bring on</hi>
+                        <roleName>Oediddee</roleName>.</stage>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RECITATIVE-<hi rend="italic">Oediddee.</hi></speaker>
+                  <lg>
+                     <l>Oh, sage <roleName>Otoo</roleName>! accept my true contrition,</l>
+                     <l>I yeild obedience to each hard condiion;</l>
+                     <l>Your son still loves me, still I love that son,</l>
+                     <l>From childhood still the race of life we've run;</l>
+                     <l>My smallest greif was anguish to his heart,</l>
+                     <l>His slightest joy could every joy impart.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR IV.-<hi rend="italic">Oediddee.</hi></speaker>
+                  <lg>
+                     <l>O'er groves of coral, throught the deep,</l>
+                     <l>Where Mogee<note n="9" type="author" place="bottom">An excellent species of
+                           fish in those seas.</note> fish thier revels keep,</l>
+                     <l>Our Staunch canoes in confort glide,</l>
+                     <l>Tho' Stern Farooa<note n="10" type="author" place="bottom">A strong and
+                           dangerous wind.</note> swells the tide,</l>
+                     <l>Small the danger each could fee,</l>
+                     <l>Friendship cried, you're safe with me.</l>
+                     <l>On the hill, that upward towers,</l>
+                     <l>Crown'd with shrubs and sweetest flowers,</l>
+                     <l>There we taste eternal spring,</l>
+                     <l>While the Wattle-bird<note n="11" type="author" place="bottom">The most
+                           melodious in the Islands.</note> shall sing</l>
+                     <l>Double joys to him and me,</l>
+                     <l>Ever such let friendship be.</l>
+                  </lg>
+               </sp>
+               <p>RECITATIVE.</p>
+               <sp>
+                  <speaker><hi rend="italic">Otoo.</hi></speaker>
+                  <lg>
+                     <l>Resign, fond youth, each silly vain pre-</l>
+                     <l>tension.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Oediddee.</hi></speaker>
+                  <lg>
+                     <l>What good awaits my tacit condescen-</l>
+                     <l>tion?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker><hi rend="italic">Otoo.</hi></speaker>
+                  <lg>
+                     <l>Your fortunes with my son I'll link for</l>
+                     <l>ever</l>
+                     <l>So Strong, that nought but death your </l>
+                     <l>fates can sever.</l>
+                     <l>Surrounding isles shall own thy sovereign </l>
+                     <l>sway,</l>
+                     <l>E'en distant Wateoo<note n="12" type="author" place="bottom"
+                           ><!-- astirc changed to number 12 for clarity, subsequencly shifting all numbers following up by one -->
+                           The farthest situated from <country>Otaheite</country>.</note> shall
+                        tribute pay,</l>
+                     <l>Be you thier Cheif, their powerful</l>
+                     <l>Areekee<note n="13" type="author" place="bottom">King.</note></l>
+                     <l>'T' <roleName>Omai</roleName> leave th' Otaheitean crown,</l>
+                     <l>This is <roleName>Otoo</roleName>'s decree.</l>
+                     <l>To <country>Britain</country>, now, <roleName>Omai</roleName> must
+                        repair,</l>
+                     <l>And many dangers run to win the British</l>
+                     <l>fair.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR V.-<hi rend="italic">Oediddee.</hi></speaker>
+                  <lg>
+                     <l>Adueu, dear <roleName>Omai</roleName>, and gladly recieve</l>
+                     <l>That true and kind welcome that Britons</l>
+                     <l>can give.</l>
+                     <stage type="modifier"><hi rend="italic">[General Chorus.</hi></stage>
+                     <l>Adueu, dear <roleName>Omai</roleName>, and gladly recieve</l>
+                     <l>That true and kind welcome that Britons</l>
+                     <l>can give.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>Scene 3</head>
+               <p><stage type="mixed"><hi rend="italic">A view of</hi>
+                     <placeName> Plymouth Sound</placeName>, <hi rend="italic">with part of</hi>
+                     <placeName> Mount Edgcumb</placeName>, <hi rend="italic">where</hi>
+                     <roleName>Omai</roleName>, <hi rend="italic">with</hi>
+                     <roleName>Harlequin</roleName>
+                     <hi rend="italic">as his servant, lands; as also does</hi>
+                     <roleName>Don Struttolando</roleName>, <hi rend="italic">with</hi>
+                     <roleName>Clown</roleName>
+                     <hi rend="italic">as his Servant: both in pursuit of the Object of their
+                        Affections,</hi>
+                     <roleName>Londina</roleName>.</stage>
+                  <stage type="business">
+                     <hi rend="italic">Different comic Business is here introduced, with the two
+                        following Airs by and old</hi> Water-Crefs Woman, <hi rend="italic">or</hi>
+                     Fairy.</stage>
+               </p>
+               <sp>
+                  <speaker>AIR VI.-<hi rend="italic">Old Fairy</hi></speaker>
+                  <lg>
+                     <l>Cold and hungry tho' I sing</l>
+                     <l>Water-Cresses o'the spring;</l>
+                     <l>Your money, neighbours, little less is</l>
+                     <l>Buy my nice spring water-cresses</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>AIR VII.-<hi rend="italic">Old Fairy</hi></speaker>
+                  <lg>
+                     <l>Keep it, prithee keep it, my kind my generous</l>
+                     <l>Boy;</l>
+                     <l>And Featly, Nimbly use it, shou'd surly care</l>
+                     <l>annoy.</l>
+                     <l>Quick posting on a fun-beam, here potent</l>
+                     <l><roleName>Towha</roleName> sent me;</l>
+                     <l>His charge "take care of Harlequin" and</l>
+                     <l>pow'rful spells he lent me.</l>
+                     <l>Be still <roleName>Omai</roleName>'s valet, he</l>
+                     <l>With kind regard</l>
+                     <l>Shall well reward</l>
+                     <l>Thy care and strict fidelity.</l>
+                     <l>Let pity touhc they bosom thro' frolick and va-</l>
+                     <l>gary,</l>
+                     <l>And tho shalt ever find me thy true, thy</l>
+                     <l>guardian fairy.</l>
+                     <stage type="business"><hi rend="italic">[The Scene ends with</hi>
+                        <roleName>Omai</roleName>
+                        <hi rend="italic">losing his Talisman, and their going off to a Justice of
+                           Peace for its recovery.]</hi></stage>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>Scene 4</head>
+               <p><stage type="novelistic"><hi rend="italic">The</hi>
+                     <placeName>Justice Room;</placeName>
+                     <hi rend="italic">where</hi>
+                     <roleName> Omai</roleName>
+                     <hi rend="italic">gets back this Talisman, but loses one of his Royal Ensigns,
+                        which by some Magic Odour produces the Effects mentioned in the
+                        following</hi></stage>
+               </p>
+               <p>AIR VIII.-<hi rend="italic">Justice, Captain, Constables</hi> and <hi
+                     rend="italic">Men.</hi></p>
+               <sp>
+                  <speaker>1st Constable</speaker>
+                  <lg>
+                     <l>Look here, please your worship,</l>
+                     <l>this very fine thing;</l>
+                     <l>My eye! but it's fit for the knob of</l>
+                     <l>a King.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Captin</speaker>
+                  <lg>
+                     <l>As you are to punish whatever's amiss;</l>
+                     <l>Pray what's to be done iwth the stealer</l>
+                     <l>of this?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Justice</speaker>
+                  <lg>
+                     <l>I wish I may never with venison be</l>
+                     <l>stuff't</l>
+                     <l>If ever I saw such a beautiful tuft!</l>
+                     <l>And now, by my honor, I've thought</l>
+                     <l>of a use</l>
+                     <l>For this wing of a turkey, or tail of</l>
+                     <l>a goose;</l>
+                     <l>'Twill make a choice top for the</l>
+                     <l>head of my wife;</l>
+                     <l>It's mine, and fo now there's an end</l>
+                     <l>of the stife.</l>
+                     <l>Oh, dear, what a delicate smell!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>1st Constable</speaker>
+                  <lg>
+                     <l>I vow it is wond'rous pleasing;</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Justice</speaker>
+                  <lg>
+                     <l>But why I yawn thus, I can't tell.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>1st Constable</speaker>
+                  <lg>
+                     <l>Oh, zounds, it has set me a sneezing.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>2nd Constable</speaker>
+                  <lg>
+                     <l>It's a plume for a royal of France,</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>1st Man</speaker>
+                  <lg>
+                     <l>Or the cap of a Knight of the</l>
+                     <l>Thistle.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>2nd Constable</speaker>
+                  <lg>
+                     <l>Why what the deuce makes me thus</l>
+                     <l>dance,</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>1st Man</speaker>
+                  <lg>
+                     <l>And tho' I've no mind I must whistle</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>2nd Man</speaker>
+                  <lg>
+                     <l>This perfume, good sir, let me try;</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Captin</speaker>
+                  <lg>
+                     <l>A perfume indeed worth the having,</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>2nd Man</speaker>
+                  <lg>
+                     <l>Lack-a-daisy, I find I must cry.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Captin</speaker>
+                  <lg>
+                     <l>By the Lord it has set me a laughing.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>All</speaker>
+                  <lg>
+                     <l>To set me a</l>
+                     <l>[sneezing</l>
+                     <l>yawning</l>
+                     <l>dancing</l>
+                     <l>whistling</l>
+                     <l>laughing</l>
+                     <l>crying]</l>
+                     <l>and all by a smell.</l>
+                     <l>These feathers contain sure some magical spell.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>Scene 5</head>
+               <p><stage type="novelistic"><hi rend="italic">A View of</hi>
+                     <placeName>Kensington Gardens,</placeName>
+                     <hi rend="italic">where</hi>
+                     <roleName> Omai</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Harlequin</roleName>
+                     <hi rend="italic">meet with</hi>
+                     <roleName>Londina</roleName>
+                     <hi rend="italic">and her Maid</hi>
+                     <roleName>Colombine</roleName>
+                     <hi rend="italic">and effect their Escape together.</hi>
+                  </stage>
+               </p>
+            </div>
+            <div type="scene" n="6">
+               <head>Scene 6</head>
+               <p><stage type="setting"><hi rend="italic">Outside of the Father's
+                     house.</hi></stage>
+                  <stage type="novelistic"><roleName>Londina</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Colombine</roleName>
+                     <hi rend="italic">are seized by</hi>
+                     <roleName>Don Struttolando</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Clown,</roleName>
+                     <hi rend="italic">but amidst various Situations and much comic Business,</hi>
+                     <roleName>Harlequin</roleName>
+                     <hi rend="italic">effects an Entrance into the house, and escapes with</hi>
+                     <roleName>Loncina</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Colombine</roleName>. </stage>
+               </p>
+            </div>
+            <div type="scene" n="7">
+               <head>Scene 7</head>
+               <p><stage type="setting"><hi rend="italic">A view of</hi> Margate <hi rend="italic"
+                        >from behind the</hi> Pier.</stage>
+                  <stage type="novelistic">
+                     <hi rend="italic">The Company are
+                        entertained<!-- Spelling corrected from entertaind --> by a Master of a
+                        Raffling Toy-Shop with the following.</hi>
+                  </stage>
+               </p>
+               <sp>
+                  <speaker>AIR-Raffling Toy-Shop-Man.</speaker>
+                  <lg>
+                     <l><hi rend="bold">I</hi></l>
+                     <l>Dear Ladies and Gentlemen customers, pop,will ye</l>
+                     <l>Into my neat little, sweet little shop, will ye?</l>
+                     <l>Walk about, Ma'am, or sit down and chat a bit;</l>
+                     <l>Miss, here's the dice-box, what think you of that a bit?</l>
+                     <l>I don't mean to gamble, or each other fleece,</l>
+                     <l>You shall only put in five and three pencea piece;</l>
+                     <l>This enamell'd Gold Watch, tick, goes right to a minute;</l>
+                     <l>Those lily white fingers Ma'am, surely must win it.</l>
+                     <l>then, Ma'am, will you walk in and tol de rol diddle?</l>
+                     <stage type="business"><hi rend="italic">[Mimicks throwing dice.</hi></stage>
+                     <l>And, Sir, will you step in, and tol de rol diddle?</l>
+                     <l>And, Miss, will you pop in and tol de rol diddle?</l>
+                     <l>And, Master, pray hop in and tol de rol diddle?</l>
+                     <l><hi rend="bold">II</hi></l>
+                     <l>When prudish, to help out your fies and your hushes, Miss,</l>
+                     <l>What if you throw for this bottle of blushes, Miss-</l>
+                     <l>Sal-Volatile, when your lover gets ranting,</l>
+                     <l>You'll find, that to tip him a faint may be wanting.</l>
+                     <l>Ma'am, a twee that won't leave a grey hair in your brow.</l>
+                     <l>Sir, a wife book to read in, that's-if you know how,</l>
+                     <stage type="delivery"><hi rend="italic">[Aside.</hi></stage>
+                     <l>Hall's, Benson's and Silver's not saunter like drones about</l>
+                     <l>But all come to Austin's, and here knock the bones about.</l>
+                     <l>Then, Ma'am &amp;c.</l>
+                     <l><hi rend="bold">III.</hi></l>
+                     <l>Ye Londoners, who would sling sorrow and cash away,</l>
+                     <l>Welcome to Margate, in Salt-Water dash away.</l>
+                     <l>Clean as a penny we'll souse, sop, and pickle ye;</l>
+                     <l>Out of your gold, neat as Brighton we'll tickle ye;</l>
+                     <l>Says spousey to deary, to Margate we'll trip</l>
+                     <l>In the dog-days, and give little Jacky a dip;</l>
+                     <l>Tho' here in the Dilly, gay pleasure attend ye,</l>
+                     <l>Yet back in the Hoy, poor Job, we'll soon send ye.</l>
+                     <l>Then Ma'am &amp;c. </l>
+                  </lg>
+               </sp>
+               <p><stage type="mixed"><roleName>Omai</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Harlequin</roleName>
+                     <hi rend="italic">with</hi>
+                     <roleName>Londina</roleName>
+                     <hi rend="italic">and</hi>
+                     <roleName>Colombine</roleName>
+                     <hi rend="italic">Leave</hi>
+                     <placeName>Europe</placeName>, <hi rend="italic">and are pursued, which closes
+                        the</hi> First Part. </stage></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
